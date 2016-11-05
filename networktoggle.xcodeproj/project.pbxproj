@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5429D2BB1DCEA47D00C4B0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5429D2BA1DCEA47D00C4B0EA /* AppDelegate.m */; };
+		5429D2BE1DCEA47D00C4B0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5429D2BD1DCEA47D00C4B0EA /* main.m */; };
+		5429D2C01DCEA47D00C4B0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5429D2BF1DCEA47D00C4B0EA /* Assets.xcassets */; };
+		5429D2C31DCEA47D00C4B0EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5429D2C11DCEA47D00C4B0EA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5429D2B61DCEA47D00C4B0EA /* networktoggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = networktoggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5429D2B91DCEA47D00C4B0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5429D2BA1DCEA47D00C4B0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5429D2BD1DCEA47D00C4B0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5429D2BF1DCEA47D00C4B0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5429D2C21DCEA47D00C4B0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5429D2C41DCEA47D00C4B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5429D2B31DCEA47D00C4B0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5429D2AD1DCEA47D00C4B0EA = {
+			isa = PBXGroup;
+			children = (
+				5429D2B81DCEA47D00C4B0EA /* networktoggle */,
+				5429D2B71DCEA47D00C4B0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5429D2B71DCEA47D00C4B0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5429D2B61DCEA47D00C4B0EA /* networktoggle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5429D2B81DCEA47D00C4B0EA /* networktoggle */ = {
+			isa = PBXGroup;
+			children = (
+				5429D2B91DCEA47D00C4B0EA /* AppDelegate.h */,
+				5429D2BA1DCEA47D00C4B0EA /* AppDelegate.m */,
+				5429D2BF1DCEA47D00C4B0EA /* Assets.xcassets */,
+				5429D2C11DCEA47D00C4B0EA /* MainMenu.xib */,
+				5429D2C41DCEA47D00C4B0EA /* Info.plist */,
+				5429D2BC1DCEA47D00C4B0EA /* Supporting Files */,
+			);
+			path = networktoggle;
+			sourceTree = "<group>";
+		};
+		5429D2BC1DCEA47D00C4B0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5429D2BD1DCEA47D00C4B0EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5429D2B51DCEA47D00C4B0EA /* networktoggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5429D2C71DCEA47D00C4B0EA /* Build configuration list for PBXNativeTarget "networktoggle" */;
+			buildPhases = (
+				5429D2B21DCEA47D00C4B0EA /* Sources */,
+				5429D2B31DCEA47D00C4B0EA /* Frameworks */,
+				5429D2B41DCEA47D00C4B0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = networktoggle;
+			productName = networktoggle;
+			productReference = 5429D2B61DCEA47D00C4B0EA /* networktoggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5429D2AE1DCEA47D00C4B0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = andrian7;
+				TargetAttributes = {
+					5429D2B51DCEA47D00C4B0EA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5429D2B11DCEA47D00C4B0EA /* Build configuration list for PBXProject "networktoggle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5429D2AD1DCEA47D00C4B0EA;
+			productRefGroup = 5429D2B71DCEA47D00C4B0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5429D2B51DCEA47D00C4B0EA /* networktoggle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5429D2B41DCEA47D00C4B0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5429D2C01DCEA47D00C4B0EA /* Assets.xcassets in Resources */,
+				5429D2C31DCEA47D00C4B0EA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5429D2B21DCEA47D00C4B0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5429D2BE1DCEA47D00C4B0EA /* main.m in Sources */,
+				5429D2BB1DCEA47D00C4B0EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5429D2C11DCEA47D00C4B0EA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5429D2C21DCEA47D00C4B0EA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5429D2C51DCEA47D00C4B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5429D2C61DCEA47D00C4B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5429D2C81DCEA47D00C4B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = networktoggle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrian7.networktoggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5429D2C91DCEA47D00C4B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = networktoggle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrian7.networktoggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5429D2B11DCEA47D00C4B0EA /* Build configuration list for PBXProject "networktoggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5429D2C51DCEA47D00C4B0EA /* Debug */,
+				5429D2C61DCEA47D00C4B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5429D2C71DCEA47D00C4B0EA /* Build configuration list for PBXNativeTarget "networktoggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5429D2C81DCEA47D00C4B0EA /* Debug */,
+				5429D2C91DCEA47D00C4B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5429D2AE1DCEA47D00C4B0EA /* Project object */;
+}
